@@ -15,7 +15,7 @@ public class Main {
         int[] array = new int[size];
 
         MethodsForD.randomElementsForArray(array, size, -10, 10);
-        Printer.print("Array: " + Arrays.toString(array));
+        Printer.print("\nArray: " + Arrays.toString(array));
 
         Printer.print("\nResult: " + MethodsForD.differentCoupleValues(array, size));
 
