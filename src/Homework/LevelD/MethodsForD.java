@@ -80,6 +80,25 @@ public class MethodsForD {
         return result;
     }
 
+    public static String oppositeCoupleValues(int[] array, int size) {
+        String result = "";
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array.length; j++) {
+                int a = - array[j];
+                if (i != j) {
+                    if (array[i] == a) {
+                        result = "Find a couple of opposite numbers.";
+                        break;
+                    } else {
+                        result = "Search is empty.";
+                    }
+                }
+
+            }
+
+        }
+        return result;
+    }
 
 
 }
