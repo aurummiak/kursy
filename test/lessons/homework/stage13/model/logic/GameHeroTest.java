@@ -8,10 +8,10 @@ import static org.junit.Assert.assertEquals;
 
 public class GameHeroTest {
     @Test
-    public void testCalculateTotalRecoveryPositive() {
+    public void testCalculateTotalRecoveryPositive() { // подсчет общего восстановления
         Artifact[] artifacts = {
                 new Artifact("Fire", 1.00, 2.00, 90.00, false),
-                new Artifact("Water", 2.00, 2.00, 60.00, true),
+                new Artifact("Hydro", 2.00, 2.00, 60.00, true),
                 new Artifact("Wind", 1.50, 1.00, 100.00, true),
                 new Artifact("Geo", 2.50, 5.00, 50.00, false),
         };
@@ -25,10 +25,10 @@ public class GameHeroTest {
     }
 
     @Test
-    public void testCalculateTotalPowerPositive() {
+    public void testCalculateTotalPowerPositive() { // подсчет общей силы
         Artifact[] artifacts = {
                 new Artifact("Fire", 1.00, 2.00, 90.00, false),
-                new Artifact("Water", 2.00, 2.00, 60.00, true),
+                new Artifact("Hydro", 2.00, 2.00, 60.00, true),
                 new Artifact("Wind", 1.50, 1.00, 100.00, true),
                 new Artifact("Geo", 2.50, 5.00, 50.00, false),
         };
@@ -42,10 +42,10 @@ public class GameHeroTest {
     }
 
     @Test
-    public void testCalculateTotalStaminaPositive() {
+    public void testCalculateTotalStaminaPositive() { // подсчет общей стамины
         Artifact[] artifacts = {
                 new Artifact("Fire", 1.00, 2.00, 90.00, false),
-                new Artifact("Water", 2.00, 2.00, 60.00, true),
+                new Artifact("Hydro", 2.00, 2.00, 60.00, true),
                 new Artifact("Wind", 1.50, 1.00, 100.00, true),
                 new Artifact("Geo", 2.50, 5.00, 50.00, false),
 
@@ -60,10 +60,10 @@ public class GameHeroTest {
     }
 
     @Test
-    public void tesCheckTreatmentFromArtifacts(){
+    public void tesCheckTreatmentFromArtifacts(){ // проверка лечения артефакта
         Artifact[] artifacts = {
                 new Artifact("Fire", 1.00, 2.00, 90.00, false),
-                new Artifact("Water", 2.00, 2.00, 60.00, false),
+                new Artifact("Hydro", 2.00, 2.00, 60.00, false),
                 new Artifact("Wind", 1.50, 1.00, 100.00, true),
                 new Artifact("Geo", 2.50, 5.00, 50.00, true),
         };

@@ -7,7 +7,7 @@ import java.util.Enumeration;
 public class GameHero {
 
     public static final double FIRE_RESIST = 0.1;
-    public static final double WATER_RESIST = 0.2;
+    public static final double HYDRO_RESIST = 0.2;
     public static final double WIND_RESIST = 0.3;
     public static final double GEO_RESIST = 0.4;
 
