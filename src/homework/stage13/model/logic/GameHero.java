@@ -2,8 +2,6 @@ package homework.stage13.model.logic;
 
 import homework.stage13.model.entity.Artifact;
 
-import java.util.Enumeration;
-
 public class GameHero {
 
     public static final double FIRE_RESIST = 0.1;

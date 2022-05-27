@@ -7,6 +7,7 @@ public class Artifact {
     double stamina; // выносливость
     boolean treatment; // хилл
 
+
     public Artifact() {
         element = "no element";
         recovery = 0.0;
